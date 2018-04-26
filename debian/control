@@ -1,0 +1,25 @@
+Package: network-manager-config-connectivity-pop
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         network-manager (>= ${source:Version})
+Description: NetworkManager configuration to enable connectivity checking
+ This package contains a configuration file which enables NetworkManager's
+ connectivity checking functionality.
+ .
+ NetworkManager will try to connect to a Pop!_OS server to determine the
+ connection status.
+ .
+ This is particularly useful for captive portal detection.
+ .
+ No user data is transmitted in the connectivity checks, but merely contacting
+ the Pop!_OS connectivity check servers reveals that the user is running Pop!_OS
+ with NetworkManager.
+ .
+ This package adheres to the Pop!_OS Privacy Policy:
+ .
+ System76, Inc. and Pop!_OS do not collect or store any information from user
+ installations. Minimal OS and hardware version data is used (but not stored) to
+ provide firmware and software updates. An http ping to a server is used for
+ connection verification and enabling connecting to captive portal wifi
+ connections (like those at many hotels).

@@ -1,0 +1,1 @@
+debian/20-connectivity-pop.conf usr/lib/NetworkManager/conf.d/

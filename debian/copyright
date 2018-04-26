@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: network-manager-config-connectivity-pop
+Source: https://github.com/pop-os/connectivity
+
+Files: *
+Copyright: System76
+License: GPL-3+
