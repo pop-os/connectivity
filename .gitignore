@@ -1,0 +1,8 @@
+
+# Build artefacts
+debian/.debhelper
+debian/network-manager-config-connectivity-pop
+debian/network-manager-config-connectivity-pop.debhelper*
+debian/network-manager-config-connectivity-pop.substvars
+debian/files
+debian/debhelper-build-stamp
